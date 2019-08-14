@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringColud-API" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringColud-consumer-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringColud-zuul-gateway-9527" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringColudConsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringColudEurekaServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringColudEurekaServer-7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringColudEurekaServer-7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringColudprovider-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringColudprovider-8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringColudprovider-8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringColudprovider-hystrix-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringServiceCloud-Consumer-dept-feign" charset="UTF-8" />
+  </component>
+</project>

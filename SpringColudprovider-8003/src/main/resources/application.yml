@@ -1,0 +1,23 @@
+spring:
+                  datasource:
+                    driver-class-name: oracle.jdbc.driver.OracleDriver
+                    url: jdbc:oracle:thin:@127.0.0.1:1521:ORCL
+                    username: scott
+                    password: root
+                  application:
+                    name: SpringColudprovider
+server:
+  port: 8003
+
+eureka:
+  client: #客户端注册进eureka服务列表内
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/ #服务注册的地址
+  instance:
+    instance-id: 提供者-8003 #微服务的名字
+    prefer-ip-address: true  #使用本机ip
+info: #告诉这个微服务是做什么的
+  app.name: atguigu-microservicecloud
+  company.name: www.sanwu.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
